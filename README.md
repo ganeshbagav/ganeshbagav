@@ -1,6 +1,6 @@
 <!-- ================= HEADER ================= -->
 
-<h1 align="center">Hi 👋, I'm Ganesh Bagav</h1>
+<h1 align="center">Hi, I'm Ganesh Bagav</h1>
 <h3 align="center">🚀 Backend Developer | Node.js Specialist</h3>
 
 <p align="center">
