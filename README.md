@@ -10,6 +10,7 @@
 ## 🎮 GitHub Activity Game
 
 ![Game](https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/game.svg)
+![Snake animation](https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/github-contribution-grid-snake.svg)
 
 <br/>
 
