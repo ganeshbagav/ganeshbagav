@@ -1,4 +1,4 @@
-name: Generate Contribution Game
+name: Generate GitHub Activity Game
 
 on:
   schedule:
@@ -13,14 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - name: Generate activity game
+        uses: abozanona/github-activity-game@main
         with:
-          github_user_name: ganeshbagav
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          username: ganeshbagav
+          theme: github
 
-      - name: Push to output branch
+      - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
