@@ -1,26 +1,27 @@
-name: Generate Contribution Animation
+name: Deploy Space Shooter Animation
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ganeshbagav
-          outputs: |
-            dist/github-snake.svg
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Push animation
+      - name: Copy animation
+        run: |
+          mkdir dist
+          cp assets/space-shooter.gif dist/
+
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
