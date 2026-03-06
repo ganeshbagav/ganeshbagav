@@ -14,15 +14,12 @@ jobs:
 
     steps:
       - name: Generate activity game
-        uses: abozanona/github-activity-game@main
-        with:
-          username: ganeshbagav
-          theme: github
+        uses: cicirello/github-action-activity-graph@v1
 
       - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
