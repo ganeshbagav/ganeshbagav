@@ -7,9 +7,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=3B82F6&center=true&vCenter=true&lines=Backend+Developer;Node.js+%7C+Express+%7C+MongoDB;Building+Scalable+APIs;Turning+Ideas+Into+Real+Products" />
 </p>
 
-## 🎮 GitHub Activity Game
+## 🎮 GitHub Activity Animation
 
-![Activity Game](https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/github-activity-game.svg)
+![Activity Animation](https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/github-snake.svg)
 <br/>
 
 <hr/>
