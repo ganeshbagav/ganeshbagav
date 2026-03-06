@@ -8,8 +8,8 @@
 </p>
 
 ## 🎮 GitHub Activity Game
-![Snake animation](https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/github-contribution-grid-snake.svg)
 
+![Activity Game](https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/github-activity-game.svg)
 <br/>
 
 <hr/>
