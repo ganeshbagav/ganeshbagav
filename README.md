@@ -9,8 +9,9 @@
 ## 🚀 GitHub Space Shooter Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/output/space-shooter.gif" width="600"/>
+  <img src="https://raw.githubusercontent.com/ganeshbagav/ganeshbagav/master/assets/space-shooter.gif" width="600">
 </p>
+
 <br/>
 
 <hr/>
